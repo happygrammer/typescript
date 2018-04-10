@@ -1,0 +1,10 @@
+{
+  "extends": "./config/base.json",
+  "compilerOptions": {
+    "outFile": "./dist/extends/out.js",
+    "target": "es5"
+  }
+}
+/*
+base.json의 설정 파일을 확장합니다.
+*/

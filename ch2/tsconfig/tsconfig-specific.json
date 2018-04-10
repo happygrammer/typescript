@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "outFile": "./dist-specific/out.js",
+    "target": "es5",
+    "removeComments": true,
+    "sourceMap" : true
+  },
+  "files":[
+    "./src/hello1.ts",
+    "./src/hello2.ts",
+    "./src2/hello3.ts"
+  ]
+}
+/*
+특정 파일을 지정해서 컴파일을 수행합니다.
+*/

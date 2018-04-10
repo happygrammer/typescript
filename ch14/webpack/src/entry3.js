@@ -1,0 +1,1 @@
+document.write(require("./entry3-sub.js"));

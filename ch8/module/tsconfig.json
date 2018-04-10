@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "target": "es6"
+	//"target": "es5"
+    //"module": "amd"
+  },
+  "exclude": [
+    "node_modules",
+    "src/module-system/node_modules",
+    ".vscode"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "lib": ["es5","dom", "es2015.promise"]
+  },
+  "exclude": [
+    "node_modules",
+    ".vscode"
+  ]
+}
+
+/*
+es5에 프로미스만
+*/

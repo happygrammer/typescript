@@ -1,0 +1,17 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "build2": "webpack --config webpack2.config.js",
+    "build3": "webpack --config webpack3.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^2.0.3",
+    "typescript": "^2.7.2"
+  }
+}

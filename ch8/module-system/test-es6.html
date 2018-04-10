@@ -1,0 +1,23 @@
+<html>
+<head>
+    <script src="/node_modules/systemjs/dist/system.js"></script>
+    <script src="/node_modules/traceur/bin/traceur.js"></script>
+    <script>
+        SystemJS.config({
+            packages: {
+                '.': {
+                    defaultJSExtensions: 'js'
+                }
+            }
+        });
+        SystemJS.import('./src-es6/a.js').then(function (m) {
+            console.log("a.js 모듈을 호출 =>", m.unique([1, 2, 3, 4]));
+        }, console.error.bind(console));
+
+        SystemJS.import('./src-es6/b.js').then(function (m) {
+            console.log("b.js 모듈을 호출 =>", m.unique([1, 2, 3, 4]));
+        }, console.error.bind(console));
+    </script>
+</head>
+<body></body>
+</html>

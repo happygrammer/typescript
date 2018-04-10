@@ -1,0 +1,25 @@
+<html>
+
+<head>
+    <script src="/node_modules/systemjs/dist/system.js"></script>
+    <script>
+        SystemJS.config({
+            packages: {
+                '.': {
+                    defaultJSExtensions: 'js'
+                }
+            }
+        });
+        SystemJS.import('./src-amd/a.js').then(function (m) {
+            console.log("a.js 모듈을 호출 =>", m.unique([1, 2, 3, 4]));
+        }, console.error.bind(console));
+
+        SystemJS.import('./src-amd/b.js').then(function (m) {
+            console.log("b.js 모듈을 호출 =>", m.unique([1, 2, 3, 4]));
+        }, console.error.bind(console));
+    </script>
+</head>
+
+<body></body>
+
+</html>

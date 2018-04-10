@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "types": [
+            "jquery"
+        ]
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}

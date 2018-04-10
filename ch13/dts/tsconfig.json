@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "target": "es5",
+    "removeComments": true,
+    "allowJs": true
+  },
+  "include": [
+    "src/**/*.ts"
+  ],  
+  "exclude": [
+    "node_modules",
+    ".vscode"
+  ],
+  "files": [
+    "./src/my/separate/dts/index.d.ts"
+  ]
+}

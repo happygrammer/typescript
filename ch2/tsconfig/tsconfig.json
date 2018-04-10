@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "outFile": "./dist-import-test/out.js",
+    "target": "es5",
+    "module": "amd",    
+    "removeComments": true,
+    "sourceMap" : true
+  },
+  "include":[
+    "./src-import-test/**/*.ts"
+  ]
+}
+/*
+타입스크립트 툴박스
+*/

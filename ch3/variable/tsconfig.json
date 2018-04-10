@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "target": "es6",
+    "strictNullChecks": true,
+    "removeComments": true
+  },  
+  "exclude": [
+    "node_modules",
+    ".vscode"
+  ]
+}
+
+/*
+
+파일 단위 컴파일 예) tsc hello.ts
+프로젝트 단위 컴파일 예) tsc
+
+프로젝트 단위로 컴파일을 수행할때 outDir에 설정된 디렉터리 기준으로 컴파일을 수행합니다. 이때 target은 es6로 설정해 예제에 사용된 특징을 모두 포함 되도록 합니다.
+예제 중에 ES6의 특징을 사용하는 파일은 다음과 같습니다.
+
+- /src/ts-types/symbol.ts
+- /src/ts-types/symbol2.ts
+
+*/

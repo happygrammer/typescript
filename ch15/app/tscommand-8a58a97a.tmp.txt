@@ -1,0 +1,1 @@
+"E:\ch15\app\server\controllers\index.ts" "E:\ch15\app\server\model\list_model.ts" "E:\ch15\app\server\routes\appRoutes.ts" "E:\ch15\app\server\routes\baseRoutes.ts" "E:\ch15\app\server\server.ts" "E:\ch15\app\server\.baseDir.ts" --removeComments --target ES6 --module commonjs --outDir ./dist

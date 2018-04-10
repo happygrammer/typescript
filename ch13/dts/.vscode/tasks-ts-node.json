@@ -1,0 +1,9 @@
+{
+    "version": "0.1.0",
+    "command": "ts-node",
+    "isShellCommand": true,
+    "args": ["${file}"],
+}
+/*
+VSCode상에서 ts-node를 이용한 타입스크립트 결과 확인을 위한 설정
+*/

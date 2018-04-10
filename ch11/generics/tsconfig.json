@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "target": "es6",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "removeComments": true
+  },  
+  "exclude": [
+    "node_modules",
+    ".vscode"
+  ]
+}

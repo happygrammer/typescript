@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "removeComments": true,
+    "sourceMap" : true
+  },  
+  "exclude": [
+    "node_modules",
+    ".vscode"
+  ]
+}
+/*
+기본 속성
+*/

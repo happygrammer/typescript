@@ -1,0 +1,17 @@
+/*
+ * @author happygrammer
+ * noFallthroughCasesInSwitch는 폴트루스 옵션으로 false(허용)가 기본 값입니다.
+ * target이 es6(es2015)인 이유는 for-of-map, for-of-set 파일로 인해서 es6로 설정합니다.
+*/
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "target": "es6",
+    "removeComments": true,
+    "noFallthroughCasesInSwitch":false
+  },  
+  "exclude": [
+    "node_modules",
+    ".vscode"
+  ]
+}

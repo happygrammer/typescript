@@ -1,0 +1,11 @@
+{
+  "name": "hello-ts",
+  "version": "1.0.0-RC1",
+  "description": "hello typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "happy",
+  "license": "ISC"
+}

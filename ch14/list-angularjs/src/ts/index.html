@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <title>메인 페이지</title>
+</head>
+<body>
+    <div ng-controller="MainController">
+        <h3>대구에서 갈만한 곳</h3>
+        <ul>
+            <li ng-repeat="i in items">
+                <b>{{i.name}}</b> : {{i.point}} 점
+            </li>
+        </ul>
+        가장 인기있는 명소는 <b>{{bestPlace}}</b> 입니다.
+    </div>
+</body>
+</html>

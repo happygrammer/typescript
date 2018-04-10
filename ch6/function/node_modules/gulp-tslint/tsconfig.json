@@ -1,0 +1,25 @@
+{
+    "filesGlob": [
+        "./index.ts"
+    ],
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "noImplicitAny": true,
+        "removeComments": false,
+        "outDir": ".",
+        "rootDir": ".",
+        "sourceMap": false,
+        "declaration": true,
+        "lib" : ["es2015"]
+    },
+    "exclude": [
+        "node_modules"
+    ],
+    "files": [
+        "./index.ts"
+    ],
+    "atom": {
+        "rewriteTsconfig": true
+    }
+}

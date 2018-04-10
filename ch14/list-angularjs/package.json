@@ -1,0 +1,23 @@
+{
+  "name": "angularjs-client",
+  "description": "Angularjs Client",
+  "version": "1.0.0",
+  "private": true,
+  "author": "happygrammer",
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "dependencies": {
+    "@types/angular": "^1.6.4",
+    "@types/underscore": "^1.8.0",
+    "angular": "^1.6.4",
+    "underscore": "^1.8.0"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^2.28.0",
+    "install": "^0.8.8",
+    "ts-loader": "^2.0.3",
+    "typescript": "^2.7.2",
+    "webpack": "^2.2.1"
+  }
+}

@@ -1,0 +1,17 @@
+#myNavBar{ background-color:#00796B; height:60px; }
+#item-list{ padding-left:0px; }
+#myNavBar{background-color:#00796B; }
+#item-list{ padding-left:0px; }
+#siteIntro{ height:100px; }
+#form form{ width: 500px; }
+#btnSave{ float:right; }
+input.form-control{ width:100%;width:500px; }
+.navbar-header span{ color:white; }
+.navbar-brand{ padding-top: 20px; }
+.top80{ margin-top:80px; }
+.col-xs-4 p{ max-height:55px; overflow-y:hidden; }
+.col-xs-4 p a{ position: absolute; bottom:0px; }
+.max50{ margin-top:50px; padding-left:0px;	min-height: 150px; }
+.max50 h2{ font-size: 20px; font-weight: bold; }
+.max50 p{ line-height: 30px; }
+.btn-link{ background-color:#B2DFDB; color:#000; }

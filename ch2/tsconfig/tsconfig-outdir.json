@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist-outdir",
+    "target": "es5",
+    "removeComments": true
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    ".vscode"
+  ]
+}
+/*
+outDir 기준으로 include에 설정된 src 디렉터리에 존재하는 모든 파일을 각 파일마다 컴파일을 수행합니다.
+*/
