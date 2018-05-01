@@ -1,6 +1,6 @@
 # 타입스크립트 퀵스타트
 
-<img src="https://github.com/happygrammer/typescript/blob/master/cover.jpg" width="280px">
+<img src="https://github.com/happygrammer/typescript/blob/master/cover.jpg" width="250px">
 
 * [Yes24](http://www.yes24.com/24/goods/59719961?scode=029)
 * [알라딘](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=141259576)
@@ -10,5 +10,5 @@
 
 ## 오탈자 및 오류, 변경사항
 
-* 343쪽 컴파일 결과 그림의 문자열
-- 그림 10-1의 컴파일 결과를 "let myNum:any => myNum"와 같이 수정
+- 343쪽 컴파일 결과 그림의 문자열
+	- 그림 10-1의 컴파일 결과를 "let myNum:any => myNum"와 같이 수정
