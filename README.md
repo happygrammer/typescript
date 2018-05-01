@@ -1,6 +1,6 @@
 # 타입스크립트 퀵스타트
 
-<img src="https://github.com/happygrammer/typescript/blob/master/cover.jpg">
+<img src="https://github.com/happygrammer/typescript/blob/master/cover.jpg" width="280px">
 
 * [Yes24](http://www.yes24.com/24/goods/59719961?scode=029)
 * [알라딘](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=141259576)
