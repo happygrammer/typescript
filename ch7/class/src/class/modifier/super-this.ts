@@ -48,7 +48,7 @@ myDesktop.getInfo();
 */
 /*    
     ES5 이하로 컴파일 하려는 경우
-        - get/set 접근자는 ES5로 표현되기가 어려워 ES5이하로 컴파일이 지원되지 않습니다. 
+        - get/set 접근자는 ES5로 표현되기 어려워 ES5이하로 컴파일이 지원되지 않습니다. 
         - 따라서 ES5로 컴파일 하려면 get/set 접근자 대신 부모 클래스에 메서드를 오버라이든 해서 사용해 주시길 바랍니다(20180815)
         - https://github.com/Microsoft/TypeScript/issues/338
 */

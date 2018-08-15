@@ -27,8 +27,15 @@
 ## 보완 설명
 
 - 197쪽 [예제7-4](https://github.com/happygrammer/typescript/blob/master/ch7/class/src/class/modifier/super-this.ts)
-	- get/set 접근자는 ES5로 표현되기가 어려워 ES5이하로 컴파일이 지원되지 않습니다.
+	- get/set 접근자는 ES5로 표현되기 어려워 ES5이하로 컴파일이 지원되지 않습니다.
 - 367쪽 [예제11-4](https://github.com/happygrammer/typescript/blob/master/ch11/generics/src/default/concat5.ts)
 	- TS 2.0.0에서 concat4함수의 "return strs + strs2;"에 대한 주석을 해제하면 T+T 연산 오류가 있습니다.
 	- 그러나 2.1 버전 이후에는 T+T 연산 오류가 없음을 안내드립니다.
 	- 컴파일러 버전에따른 타입 검사 방식 변경이 있을 수 있는데 관련설명은 111쪽을 참고해 주시길 부탁드립니다.
+
+## 타입스크립트 최근 소식
+- `2018-07-30` [타입스크립트 3.0 출시](https://blogs.msdn.microsoft.com/typescript/2018/07/30/announcing-typescript-3-0/)
+
+## 타입스크립트 주요 사이트
+- [타입스크립트 트위터](https://twitter.com/typescriptlang)
+- [타입스크립트 릴리즈노트](https://github.com/Microsoft/TypeScript/releases)
