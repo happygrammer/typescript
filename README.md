@@ -40,12 +40,10 @@
 
 ## 타입스크립트와 관련해 읽을 만한 글
 - [타입스크립트 언어 사양서](https://github.com/Microsoft/TypeScript/blob/master/doc/spec.md)
-
-## 타입스크립트 요약 페이지
-- [https://hygull.github.io/](https://hygull.github.io/type-script/)
-
-## 타입스크립트 공식 문서
-- [Module Resolution](https://www.typescriptlang.org/docs/handbook/module-resolution.html)
+- 타입스크립트 요약 페이지
+	- [https://hygull.github.io/](https://hygull.github.io/type-script/)
+- 타입스크립트 공식 문서
+	- [Module Resolution](https://www.typescriptlang.org/docs/handbook/module-resolution.html)
 
 ## 타입스크립트 주요 사이트
 - [타입스크립트 트위터](https://twitter.com/typescriptlang)
