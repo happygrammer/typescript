@@ -4,9 +4,15 @@
 
 * [예스24](http://www.yes24.com/24/goods/59719961?scode=029)
 * [알라딘](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=141259576)
-* [교보문고](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791186710302&orderClick=LAG&Kc=)
+* [교보문고](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791186710302&orderClick=LAG&Kc=) [[미리보기]](http://preview.kyobobook.co.kr/preview.jsp?siteGb=INK&ejkGb=KOR&barcode=9791186710302&loginYn=N&orderClick=JAW)
 * [반디앤루니스](http://www.bandinlunis.com/front/product/detailProduct.do?prodId=4167786)
 * [인터파크](http://shopping.interpark.com/product/productInfo.do?prdNo=5618034908&dispNo=008001082&pis1=shop&pis2=product)
+
+## 소스 코드 환경
+
+- 타입스크립트 : 2.7.2
+- Node.js : 8.9.4
+- ts-node : 3.3.0
 
 ## 정오표
 
@@ -20,8 +26,9 @@
 	
 ## 보완 설명
 
-- 367쪽 예제
+- 197쪽 [예제7-4](https://github.com/happygrammer/typescript/blob/master/ch7/class/src/class/modifier/super-this.ts)
+	- get/set 접근자는 ES5로 표현되기가 어려워 ES5이하로 컴파일이 지원되지 않습니다.
+- 367쪽 [예제11-4](https://github.com/happygrammer/typescript/blob/master/ch11/generics/src/default/concat5.ts)
 	- TS 2.0.0에서 concat4함수의 "return strs + strs2;"에 대한 주석을 해제하면 T+T 연산 오류가 있습니다.
 	- 그러나 2.1 버전 이후에는 T+T 연산 오류가 없음을 안내드립니다.
 	- 컴파일러 버전에따른 타입 검사 방식 변경이 있을 수 있는데 관련설명은 111쪽을 참고해 주시길 부탁드립니다.
-	

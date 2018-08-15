@@ -37,3 +37,18 @@ class Desktop extends PC {
 
 let myDesktop = new Desktop("1000G");
 myDesktop.getInfo();
+
+/*
+    1번 HDD 용량 : 1000G undefined
+    2번 HDD 용량 : 1000G 1000G
+    3번 HDD 용량 : 2000G undefined
+    4번 HDD 용량 : 2000G 2000G
+    5번 RAM 용량 : 16G 16G
+    6번 RAM 용량 : 8G 8G
+*/
+/*    
+    ES5 이하로 컴파일 하려는 경우
+        - get/set 접근자는 ES5로 표현되기가 어려워 ES5이하로 컴파일이 지원되지 않습니다. 
+        - 따라서 ES5로 컴파일 하려면 get/set 접근자 대신 부모 클래스에 메서드를 오버라이든 해서 사용해 주시길 바랍니다(20180815)
+        - https://github.com/Microsoft/TypeScript/issues/338
+*/
