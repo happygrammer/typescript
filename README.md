@@ -36,15 +36,15 @@
 ## 타입스크립트 최근 소식
 - `2018-07-30` [타입스크립트 3.0 출시](https://blogs.msdn.microsoft.com/typescript/2018/07/30/announcing-typescript-3-0/)
 	- Typescript 3.0의 새로운 특징 [git](https://github.com/Microsoft/TypeScript/wiki/What%27s-new-in-TypeScript) [doc](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-0.html)
-- `2017-04-23' [타입스크립트 2.3 출시](https://blogs.msdn.microsoft.com/typescript/2017/04/27/announcing-typescript-2-3/)
+- `2017-04-23` [타입스크립트 2.3 출시](https://blogs.msdn.microsoft.com/typescript/2017/04/27/announcing-typescript-2-3/)
 
-# 타입스크립트와 관련해 읽을 만한 글
+## 타입스크립트와 관련해 읽을 만한 글
 - [타입스크립트 언어 사양서](https://github.com/Microsoft/TypeScript/blob/master/doc/spec.md)
 
-# 타입스크립트 요약 페이지
+## 타입스크립트 요약 페이지
 - [https://hygull.github.io/](https://hygull.github.io/type-script/)
 
-# 타입스크립트 공식 문서
+## 타입스크립트 공식 문서
 - [Module Resolution](https://www.typescriptlang.org/docs/handbook/module-resolution.html)
 
 ## 타입스크립트 주요 사이트
