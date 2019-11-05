@@ -6,7 +6,7 @@ class LazeLogger {
     private static uniqueObject: LazeLogger;
 
     // #2 private을 붙여 객체로 생성되지 않도록 함
-    private LazeLogger() { }
+    private constructor() { }
 
     // #3 게으른 초기화를 진행
     public static getLogger(): LazeLogger {
