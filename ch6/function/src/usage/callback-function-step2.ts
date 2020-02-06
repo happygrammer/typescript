@@ -3,7 +3,7 @@
  */
 
 // 공통으로 사용할 콜백 함수 타입의 정의
-type EchoCallbackType = (message: string) => void;
+type EchoCallbackType = (message: string) => string;
 
 // 공통으로 사용할 콜백 함수 정의
 let callbackEcho: EchoCallbackType = message => message;

@@ -16,13 +16,31 @@
 
 ## 정오표
 
+- 100쪽, 아래서 3번째 줄 중간
+	- 40 (10 * 22) => 40 (10 * 2 * 2)
+- 104쪽, 그림 3-8 마지막 줄
+	- `number2.notExistMethod();` => `number.notExistMethod();`
+- 174쪽, 예제 6-11 제목 (화살표 함수와 관계 없음)
+	- 활살표 함수에서 this 사용 => 함수에서 this 사용
+- 180쪽, 첫 예제 첫 줄 반환 타입 설정
+	- `(message: string) => void;` => `(message: string) => string;`
+- 180쪽, 예제 6-13 2번째 줄 반환 타입 설정
+	- `(message: string) => void;` => `(message: string) => string;`
+- 180쪽, 마지막 예제 첫 줄 반환 타입 설정
+	- `(message: string) => void;` => `(message: string) => string;`
+- 244쪽, 예제 7-25 두번째 줄 생성자
+	- `private EagerLogger() { }` => `private constructor() { }`
+- 245쪽, 예제 7-26 여섯번째 줄 생성자
+	- `private EagerLogger() { }` => `private constructor() { }`
+- 282쪽 두번째 예제 소스코드 경로
+	- ch8/module/src/module/re-exports/my-cars.ts => ch8/module/src/module/re-exports/engine.ts
 - 343쪽, 그림 10-1의 왼쪽 그림과 오른쪽 그림
-	- let myNum:any = "2017"; => let myNum= "2017";​
+	- `let myNum:any = "2017";` => `let myNum= "2017";`​
 - 520쪽, 2번째 줄
 	- "데이터를 있는 그대로 출력합니다." => "HTML을 제거해 데이터를 출력합니다"
 
 - 520쪽, 3번째 줄
-	- <%=listHTML%> => <%-listHTML%>
+	- `<%=listHTML%>` => `<%-listHTML%>`
 	
 ## 보완 설명
 
