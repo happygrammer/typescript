@@ -52,6 +52,8 @@
 	- 컴파일러 버전에따른 타입 검사 방식 변경이 있을 수 있는데 관련설명은 111쪽을 참고해 주시길 부탁드립니다.
 
 ## 타입스크립트 최근 소식
+- `2020-01-10` [타입스크립트 3.8.beta 출시](https://devblogs.microsoft.com/typescript/announcing-typescript-3-8-beta)
+- `2019-11-05` [타입스크립트 3.7 출시](https://devblogs.microsoft.com/typescript/announcing-typescript-3-7)
 - `2019-08-28` [타입스크립트 3.6 출시](https://blogs.msdn.microsoft.com/typescript/2018/07/30/announcing-typescript-3-6)
 - `2019-05-29` [타입스크립트 3.5 출시](https://devblogs.microsoft.com/typescript/announcing-typescript-3-5)
 - `2019-03-29` [타입스크립트 3.4 출시](https://devblogs.microsoft.com/typescript/announcing-typescript-3-4)
